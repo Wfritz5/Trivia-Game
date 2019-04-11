@@ -1,0 +1,72 @@
+body {
+  background: url(../images/trivia.jpg);
+}
+
+.answerchoice {
+	border: 5px solid rgb(255, 123, 0);
+  border-radius: 5%;
+  width: 40%;
+  color: rgb(255, 123, 0);
+  text-align: center;
+  margin: 10px auto;
+  font-size: 20px;
+  background-color: rgb(255,193,7);
+
+}
+
+p {
+  text-align: center;
+  background-color: rgb(155, 5, 5);
+  color: white;
+  margin-bottom:25px;
+  font-size: 36px;
+}
+
+
+
+#mainScreen  {
+  margin-top: 100px;
+}
+#questions {
+  text-align: center;
+  color: white;
+}
+
+#answers {
+  text-align: center;
+  color: white;
+}
+/* .answerchoice:hover {
+    cursor: pointer;
+} */
+.answerchoice:hover, #reset:hover, #start:hover {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transform: translate(3px, 3px);
+
+}
+
+#reset {
+  color: rgb(255, 123, 0);
+  margin-left: 25px;
+  margin-bottom: 35px;
+}
+
+#timerDiv {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+
+.container {
+  background-color: rgb(155, 5, 5);
+  border: solid 5px white;
+  margin-top: 50px;
+}
+
+#start {
+  margin-left: 25px;
+  margin-bottom:231px;
+  font-weight: bold;
+  color: rgb(255, 123, 0);
+}
